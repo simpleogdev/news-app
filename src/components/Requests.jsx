@@ -1,7 +1,5 @@
 import { useState } from "react";
 import Axios from "axios";
-// const API_KEY = "6e559e64bb264309a2aff37fc63f6f58"; old one
-const API_KEY = "6070d56a1d254595b6a21918ae3c520b";
 var currentDate = new Date();
 
 currentDate.setDate(currentDate.getDate() - 1);
